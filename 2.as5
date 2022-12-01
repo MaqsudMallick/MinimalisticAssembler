@@ -1,0 +1,6 @@
+START 4000
+.Program to convert lower case to upper case
+START INPUT A
+SUI A,32
+PRINT A
+END START

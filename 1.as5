@@ -1,0 +1,10 @@
+START 4000
+.Program to print characters A-Z
+FIRST MOV A,26
+MOV C,A
+MOV A,65
+LOOP PRINTCN A
+INR A
+DCR C
+JNZ LOOP
+END FIRST
